@@ -1,0 +1,49 @@
+.header {
+  position: fixed;
+  background-color: #181818;
+  width: 100vw;
+  z-index: 10;
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__content {
+    padding: 20px 32px;
+  }
+
+  &__btn {
+    font-family: 'Poppins';
+    color: #000;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (max-width: 1024px) {
+      display: none;
+    }
+  }
+
+  &__burger {
+    display: none;
+
+    @media screen and (max-width: 1024px) {
+      display: block;
+    }
+  }
+}

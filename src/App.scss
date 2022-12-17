@@ -1,0 +1,71 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px;
+
+  @media screen and (max-width: 480px) {
+    padding: 100px 0;
+  }
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+
+  h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 15px;
+
+    @media screen and (max-width: 480px) {
+      font-size: 32px;
+    }
+  }
+
+  p {
+    font-size: 23px;
+    color: #C0C0C0;
+  }
+}
+
+
+.btn {
+  position: relative;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  text-align: right;
+  padding: 11px 10px 11px 42px;
+  border-radius: 14px;
+  border: none;
+  outline: none;
+  margin-top: 15px;
+
+  &::before {
+    position: absolute;
+    content: '';
+    width: 32px;
+    height: 32px;
+    background-color: #000000;
+    left: 4px;
+    top: 4px;
+    border-radius: 14px;
+  }
+}
+
+.note {
+  h6 {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+  }
+}

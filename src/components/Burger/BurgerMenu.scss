@@ -1,0 +1,35 @@
+.burger {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+    @media screen and (max-width: 480px) {
+      font-size: 32px;
+    }
+  }
+
+  &__wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 5;
+    background-color: #181818;
+  }
+}

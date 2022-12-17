@@ -1,0 +1,18 @@
+.summary {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 40px;
+
+  &__item {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 16px;
+
+    svg {
+      margin-right: 6px;
+    }
+  }
+}
