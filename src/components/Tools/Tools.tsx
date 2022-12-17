@@ -29,7 +29,7 @@ export default function Tools() {
         <div className='tools__summary'>
           <Summary speed='0,8"' aperture='f/5,6' iso='100' geo='Sweden' />
         </div>
-        <img src={tools} alt="" />
+        <img src={'https://img.freepik.com/premium-photo/top-view-of-work-space-photographer-with-digital-camera-flash-cleaning-kit-memory-card-tripod-and-camera-accessory-on-black-table-background_160097-52.jpg?w=826'} alt="" />
       </div>
     </div>
   )

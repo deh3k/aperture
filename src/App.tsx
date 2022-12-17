@@ -14,7 +14,7 @@ import './App.scss';
 function App() {
   return (
     <div>
-      <Header />
+      <Header />  
       <Main />
       <Works />
       <Box
@@ -40,7 +40,7 @@ function App() {
       />
       <Companies />
       <Box
-        img='https://wallscloud.net/img/resize/1600/900/MM/2020-01-12-sky.jpg'
+        img='https://img1.fonwall.ru/o/zh/falling-star-mountain-starry-sky-night.jpeg?route=mid&h=750'
         note={
           <div className='note'>
             <h6>Star fall in the Himalayas</h6>

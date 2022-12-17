@@ -3,9 +3,6 @@ import React from 'react'
 import { fadeBotVariants } from '../../variants/variants'
 import './Works.scss'
 import WorksItem from './WorksItem'
-import work1 from '../../img/work1.jpg'
-import work2 from '../../img/work2.jpg'
-import work3 from '../../img/work3.jpg'
 import work4 from '../../img/work4.jpg'
 
 const workList = [
@@ -13,21 +10,21 @@ const workList = [
     id: 0,
     title: 'PRODUCT PHOTOGRAPHY',
     text: 'Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.',
-    img: work1,
+    img: 'https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     href: '#',
   },
   {
     id: 1,
     title: 'ARCHITECTURE PHOTOGRAPHY',
     text: 'Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet nec.',
-    img: work2,
+    img: 'https://img1.fonwall.ru/o/te/architecture-cityscape-trees-landscapes.jpeg?route=mid&h=750',
     href: '#',
   },
   {
     id: 2,
     title: 'DRONE PHOTOGRAPHY',
     text: 'Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.',
-    img: work3,
+    img: 'https://images.pexels.com/photos/8644013/pexels-photo-8644013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     href: '#',
   },
   {
