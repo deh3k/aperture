@@ -9,7 +9,7 @@ import './Main.scss'
 export default function Main() {
   return (
     <div className='main'>
-      <Parallax bgImage={'https://images.unsplash.com/photo-1605445449313-e89bb6d265da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1298&q=80'} strength={400} className="main__bg">
+      <Parallax bgImage={'https://images.unsplash.com/photo-1605445449313-e89bb6d265da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1298&q=80'} strength={200} className="main__bg">
         <div className='main__content'>
           <motion.div className="main__title"
             variants={fadeVariants}

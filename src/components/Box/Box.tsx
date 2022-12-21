@@ -14,7 +14,7 @@ export default function Box(props: IProps) {
   return (
     <div className='box'>
       <div className='box__content'>
-        <Parallax bgImage={props.img} strength={400} className='box__img'>
+        <Parallax bgImage={props.img} strength={200} className='box__img'>
           <div className='box__content__wrapper'>
             <motion.div className='box__info'
               variants={fadeVariants}
